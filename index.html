@@ -14,33 +14,35 @@
             <h1 class="text-center">Calculadora del precio de ropa segun dolar</h1>
         </div>
         <div class="row" id="r2">
-            <div class="col-md-3" id="c1">
+            <div class="col-sm-4" id="c1">
                 <p>Precio del Dolar</p>
                 <input type="number" name="" id="dolar" value="165">
             </div>
-            <div class="col-md-3" id="c1">
-                <p>Precio producto</p>
-                <input type="number" name="" id="producto" value="0" step="5">
+            <div class="col-sm-4" id="c1">
+                <p>Margen del Dolar</p>
+                <input type="number" name="" id="margen" value="40" step="5">
             </div>
-            <div class="col-md-3" id="c2">
-                <p>Peso KG</p>
-                <input type="number" name="" id="peso" value="0.1" step="0.1">
-            </div>
-            <div class="col-md-3" id="c3">
+            <div class="col-sm-4" id="c3">
                 <p>Ganancia</p>
                 <input type="number" name="" id="ganancia" value="30" step="5">
             </div>
-        </div>
+        </div>    
         <div class="row">
-            <button type="button" class="btn btn-outline-primary" onclick="calcular()">Calcular</button>
+            <div class="col-sm-6" id="c1">
+                <p>Precio producto</p>
+                <input type="number" name="" id="producto" value="0" step="5">
+            </div>
+            <div class="col-sm-6" id="c2">
+                <p>Peso KG</p>
+                <input type="number" name="" id="peso" value="0.1" step="0.1">
+            </div>
         </div>
+        <button class="btn-14"><span>Button</span></button>
         <div class="row">
             <p id="precio"></p>
         </div>
 
     </div>
-
-
 
     <script src="scripts.js"></script>
 </body>
